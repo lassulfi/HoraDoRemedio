@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:itemBackground">@color/colorPrimary</item>
+        <item name="android:itemTextAppearance">@style/menuItemTextAppearence</item>
+    </style>
+
+    <!-- Theme for EditarActivity -->
+    <style name="EditarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/editarColorPrimary</item>
+        <item name="colorPrimaryDark">@color/editarColorPrimaryDark</item>
+        <item name="colorAccent">@color/editarColorAccent</item>
+    </style>
+
+    <!-- Menu item text appearence -->
+    <style name="menuItemTextAppearence" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

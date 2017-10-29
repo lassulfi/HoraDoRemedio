@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ActivityMain Colors -->
+    <color name="colorPrimary">#E65100</color>
+    <color name="colorPrimaryDark">#F57C00</color>
+    <color name="colorAccent">#BF360C</color>
+    <!-- EditarActivity Colors -->
+    <color name="editarColorPrimary">#FC0909</color>
+    <color name="editarColorPrimaryDark">#B60404</color>
+    <color name="editarColorAccent">#5B5B5B</color>
+    <color name="editarButtonColor">#FF0000</color>
+</resources>

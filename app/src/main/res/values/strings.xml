@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Hora do Remedio</string>
+
+    <!-- Textos dos menus -->
+    <string name="menu_inserir_dados_teste">Inserir dados de teste</string>
+    <string name="menu_deletar_dados">Excluir tudo</string>
+    <string name="menu_salvar">Salvar</string>
+    <string name="menu_excluir">Excluir</string>
+
+    <!-- Textos do activity_editar -->
+    <string name="edit_text_nome_medicamento">Nome:</string>
+    <string name="edit_text_consumir">Consumir a cada</string>
+    <string name="numero_inteiro_default">0</string>
+    <string name="texto_hora">horas</string>
+    <string name="texto_durante">durante</string>
+    <string name="texto_dias">dias</string>
+    <string name="titulo_activity_novo_medicamento">Adicionar medicamento</string>
+    <string name="titulo_activity_editar_medicamento">Editar medicamento</string>
+    <string name="toast_erro_exluir_medicamento">Erro ao excluir o medicamento</string>
+    <string name="toast_sucesso_excluir_medicamento">Medicamento removido</string>
+    <string name="toast_erro_salvar_medicamento">Erro ao salvar o medicamento</string>
+    <string name="toast_sucesso_salvar_medicamento">Sucesso ao salvar o medicamento</string>
+    <string name="texto_primeiro_medicmanto_as">Primeiro medicamento as </string>
+    <string name="texto_00_00_horas">00:00</string>
+    <string name="botao_definir">Definir</string>
+
+    <!-- Textos do empty_layout.xlm -->
+    <string name="textview_nenhum_medicamento">Nenhum medicamento cadastrado</string>
+
+    <!-- Textos do MedicamentosCursorAdapter -->
+    <string name="textview_hora_antecessor">Tomar a cada:</string>
+    <string name="textview_hora_sucessor">horas</string>
+    <string name="textview_dia_antecessor">Durante:</string>
+    <string name="textview_dia_sucessor">dias</string>
+
+    <!-- Textos de AlertDialogs -->
+    <string name="descartar_edicao_mensagem">Cancelar edição e sair?</string>
+    <string name="descartar_edicao_positive_button">Descartar e sair</string>
+    <string name="descartar_edicao_negative_button">Continuar edição</string>
+    <string name="excluir_medicamento_mensagem">Excluir este medicamento?</string>
+    <string name="excluir_medicamento_positive_button">Excluir</string>
+    <string name="excluir_medicamento_negative_button">Cancelar</string>
+    <string name="excluir_todos_medicamentos">Atenção! Todos os medicamentos serão excluídos!
+        \nConfirmar?</string>
+    <string name="excluir_tudo_negative_button">Cancelar</string>
+    <string name="excluir_tudo_positive_button">Excluir</string>
+
+</resources>

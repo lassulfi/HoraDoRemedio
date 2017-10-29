@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="application.meusprojetos.com.horadoremedio">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="application.meusprojetos.com.horadoremedio.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="application.meusprojetos.com.horadoremedio.EditarActivity"
+            android:parentActivityName="application.meusprojetos.com.horadoremedio.MainActivity"
+            android:theme="@style/EditarTheme">
+            <!-- meta-data para versoes 4.0 ou inferior -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="application.meusprojetos.com.horadoremedio.EditarActivity"></meta-data>
+        </activity>
+        <provider
+            android:authorities="application.meusprojetos.com.horadoremedio"
+            android:name="application.meusprojetos.com.horadoremedio.data.MedProvider"
+            android:exported="false"/>
+        <receiver android:name="application.meusprojetos.com.horadoremedio.alarm.Despertador"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>
